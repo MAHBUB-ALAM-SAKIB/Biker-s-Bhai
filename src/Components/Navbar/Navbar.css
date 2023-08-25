@@ -1,0 +1,32 @@
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: black;
+}
+.navbar .leftside{
+    flex: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 45px;
+    
+}
+.navbar .leftside img{
+    height: 67px;
+    width: 96px;
+}
+
+.navbar .rightside{
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .rightside a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;    
+}

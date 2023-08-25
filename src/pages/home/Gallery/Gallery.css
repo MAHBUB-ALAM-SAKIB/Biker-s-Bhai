@@ -1,0 +1,20 @@
+.gallery{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery .title{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bikeList{
+    width: 90vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
